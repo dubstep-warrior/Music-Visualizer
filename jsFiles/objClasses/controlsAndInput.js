@@ -13,7 +13,7 @@ class ControlsAndInput {
     this.#playbackButton = new PlaybackButton(75, 25, 20, 20);
     this.#forwardButton = new ForwardButton(120, 25, 30, 20);
     this.#backwardButton = new BackwardButton(20, 25, 30, 20);
-    this.#playlistManager = new Playlist(1158 + width / 7 - 24, 2, 900, 50);
+    this.#playlistManager = new Playlist(1000 + width / 7 - 24, 2, 900, 50);
     this.#scrubber = new Scrubber(150, 20, (3.5 / 10) * width, 30);
   }
 
