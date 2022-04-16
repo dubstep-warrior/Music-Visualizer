@@ -1,6 +1,6 @@
 # Music-Visualizer
 Light-weight and easy to use Music Visualizer on the browser.
-Built using HTML,CSS,Javascript and P5.js
+Built using HTML,Javascript and P5.js
 
 # Available Visualizers:
 - Ridge Plot Terrain generation
