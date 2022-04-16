@@ -7,7 +7,7 @@ Built using HTML,CSS,Javascript and P5.js
 - Circular Blocks
 - Grid Ripples
 
-# DEMO:
+# Demo:
 ![Alt text](assets/READMEassets/CircularBlocks.png?raw=true "Circular Blocks")
 ![Alt text](assets/READMEassets/GridRipples.png?raw=true "Grid Ripples")
 ![Alt text](assets/READMEassets/RidgePlot.png?raw=true "RidgePlot Terrain")
