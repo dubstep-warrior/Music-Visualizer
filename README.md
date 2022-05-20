@@ -25,5 +25,6 @@ Built using HTML,Javascript and P5.js
 - Press 1 - 3 to switch to different visualization modes.
 - Press space bar to see switch instructions
 - Click to toggle full screen mode
+- Playlist view enabled via mouse hover at the top right of the screen
 - Skip forward/backward song selection in playlist
 - Drag and drop new audio files to playlist
