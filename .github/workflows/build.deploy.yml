@@ -58,10 +58,10 @@ jobs:
           script: |
             sudo yum update -y
             sudo yum install docker -y 
-            sudo docker stop portfolio || true
-            sudo docker rm portfolio || true 
+            sudo docker stop $ECR_REPOSITORY || true
+            sudo docker rm $ECR_REPOSITORY || true 
             aws ecr get-login-password --region $AWS_REGION | sudo docker login --username AWS --password-stdin $ACC_ID.dkr.ecr.$AWS_REGION.amazonaws.com    
             sudo service docker start || true   
             sudo docker pull $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
-            sudo docker run -d --name portfolio -p 8081:80 $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+            sudo docker run -d --name $ECR_REPOSITORY -p 8081:80 $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
       
