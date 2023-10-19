@@ -14,8 +14,7 @@ let tick = 0;
 function preload() {
   soundPlaylist.push(loadSound("assets/fisher_losingIt.mp3"));
   soundPlaylist.push(loadSound("assets/slander_potionsEliminateRemix.mp3"));
-  soundPlaylist.push(loadSound("assets/jamesM_wayOfTheWarrior.mp3"));
-  soundPlaylist.push(loadSound("assets/stomper_reggae_bit.mp3"));
+  soundPlaylist.push(loadSound("assets/jamesM_wayOfTheWarrior.mp3")); 
 
   sound = soundPlaylist[selectedSoundIndex];
 }
